@@ -1,3 +1,3 @@
 # Top Reads
 
-![top_reads](screenshot.png)
+![top_reads](demo.png)
