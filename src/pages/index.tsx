@@ -79,9 +79,9 @@ export default function Home() {
               <Separator className="my-4" />
               <div className="grid grid-cols-4 gap-4">
                 {books.map((book, i) => (
-                  <div key={i} className="space-y-2 p-2 hover:cursor-pointer">
+                  <div key={i} className="space-y-2 p-2">
                     <AspectRatio
-                      className="overflow-hidden rounded-md"
+                      className="hover:cursor-pointer overflow-hidden rounded-md"
                       ratio={9 / 14}
                     >
                       <Image
