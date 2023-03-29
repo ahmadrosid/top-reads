@@ -3,7 +3,7 @@ import { Album, Bird, Refrigerator } from "lucide-react";
 
 export default function Sidebar() {
   return (
-    <div className="w-[250px] border-x px-4">
+    <div className="w-[250px] border-r px-4 dark:text-zinc-100 dark:border-zinc-700">
       <div className="py-6">
         <h2 className="inline-flex gap-4 items-center font-semibold text-2xl tracking-tight">
           <Album />
