@@ -6,7 +6,7 @@ export default function Sidebar() {
     <div className="w-[250px] border-r px-4 dark:text-zinc-100 dark:border-zinc-700">
       <div className="py-6">
         <h2 className="inline-flex gap-4 items-center font-semibold text-2xl tracking-tight">
-          <Album />
+          <img src="/logo.png" alt="Top Reads" className="w-6 h-6"/>
           Top Reads
         </h2>
       </div>
