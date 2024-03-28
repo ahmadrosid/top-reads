@@ -14,7 +14,7 @@ export default function Sidebar() {
       <div className="space-y-1">
         <Button variant="ghost" size="sm" className="w-full justify-start">
           <Refrigerator className="w-4 h-4 mr-3" />
-          <span>Fiction</span>
+          <span>Marketing</span>
         </Button>
         <Button variant="ghost" size="sm" className="w-full justify-start">
           <Bird className="w-4 h-4 mr-3" />

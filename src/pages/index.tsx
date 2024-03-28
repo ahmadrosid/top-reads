@@ -15,6 +15,12 @@ const books = [
     author: "Austin Kleon",
   },
   {
+    image:
+      "https://m.media-amazon.com/images/I/81Ikr2KRkdL.jpg",
+    title: "Branding Is Sex",
+    author: "Deb Gabor",
+  },
+  {
     image: "https://m.media-amazon.com/images/I/51B12SO5RGL.jpg",
     title: "Big Magic: Creative Living Beyond Fear",
     author: "Elizabeth Gilbert",
@@ -88,7 +94,7 @@ export default function Home() {
                         src={book.image}
                         alt={`Photo by ${book.author}`}
                         fill
-                        className="object-cover scale-105 transition-all hover:scale-100 dark:brightness-75 dark:hover:brightness-100"
+                        className="object-cover transition-all dark:brightness-75 dark:hover:brightness-100"
                       />
                     </AspectRatio>
                     <div>
